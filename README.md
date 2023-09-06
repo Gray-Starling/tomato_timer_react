@@ -18,6 +18,7 @@ Let the pulsating rhythm of the pomodoros 🍅 propel you towards greater accomp
 ## 📚 Project
 <p>This project was developed to practice logic and DOM manipulation.🧘‍♂️</p>
 <p>In it I used react ⚛️ hooks such as useEffect and useState. Styled the component with the sass preprocessor ( scss ) and used the react-icons library 💻🎨🔧</p>
+<p>Also, I used Vite🏃‍♂️💨 as my build tool</p>
 
 <br>
 
