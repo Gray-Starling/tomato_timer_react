@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background: #1b3244;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #afb0b2;
+}

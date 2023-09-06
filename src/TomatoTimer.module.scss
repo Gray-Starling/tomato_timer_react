@@ -1,0 +1,130 @@
+.tomato {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__settingsBtn {
+    cursor: pointer;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  &__panel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    font-size: 18px;
+  }
+  &__statusBtn {
+    width: 50%;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #afb0b2;
+    border-radius: 10px;
+  }
+  &__controlBtn {
+    color: #f3c673;
+    cursor: pointer;
+    font-size: 32px;
+  }
+  &__timer {
+    margin: 10px 0;
+    font-size: 4rem;
+  }
+  &__controlsBlock {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.tomato__btn {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.active {
+  background-color: #f3c673;
+  color: #1b3244;
+  border: none;
+}
+
+.popup {
+  &Wrp {
+    width: 100%;
+    height: 100%;
+    max-width: calc(100vw - 100px);
+    max-height: 300px;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 10px;
+    // box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.23);
+    background-color: #f3c673;
+  }
+
+  &__close {
+    position: relative;
+    & > svg {
+      font-size: 32px;
+      cursor: pointer;
+      position: absolute;
+      top: 0;
+      right: 0;
+      fill: #1b3244;
+    }
+  }
+  &__settingsBlock {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1b3244;
+  }
+  &__title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  &__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    & input {
+      width: 100%;
+      max-width: 300px;
+      height: 25px;
+      background-color: #f3c673;
+      border: 1px solid #1b3244;
+      outline: none;
+      padding: 0 5px;
+    }
+  }
+  &__saveBtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+}
